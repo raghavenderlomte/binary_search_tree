@@ -1,0 +1,13 @@
+This is the implementation of binary search tree.
+It has functions to insert a node(binary_insert).
+To search for a particular entry(binary_search).
+To display all the nodes(binary_display).
+To display the smallest node(binary_smallest).
+To display the largest node(binary_largest).
+To display the height of a particular node(binary_height).
+
+In the test folders main.c program there is a switch case which gets redirected to the respective function and exceutes it.
+In main.c program we are creating a pointer of struct node *(first) type and maintaining it as base node, when ever we do any sort of operation we send that pointer as argument.
+In binary_insert function for the first time only we update the base node address then after we just send the base node  address as return because we have to maintain the base node address to perform any sort of operation.
+
+To get the executable just run the "make"command,It generates a executable file with name "executable" and your program is ready to execute.
