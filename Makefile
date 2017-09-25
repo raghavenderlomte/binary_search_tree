@@ -1,7 +1,7 @@
-CC=gcc  #type of compiler i am using gcc
+CC=gcc  
 
-FLAGS = -I include/ -g   #to include the header file which is present in include folder
-OBJPATH1= source/	#objpath1 and 2 contains the path of .c files
+FLAGS= -I include/ -g
+OBJPATH1= source/
 OBJPATH2= test/
 
 default:executable clean
